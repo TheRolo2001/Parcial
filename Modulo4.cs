@@ -21,5 +21,17 @@ namespace Parcial
         {
             this.Close();
         }
+
+        private void Resultado_TextChanged(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void Btn_Inver_Click(object sender, EventArgs e)
+        {
+            String Texto = Frase.Text;
+            String Resul = String.Join(" ", Texto.Split(' ').Select(x => new String(x.Reverse().ToArray())));
+            Resultado.Text = Resul;
+        }
     }
 }
