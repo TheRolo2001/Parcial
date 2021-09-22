@@ -56,6 +56,7 @@ namespace Parcial
             this.Modulo2.TabIndex = 1;
             this.Modulo2.Text = "Modulo1";
             this.Modulo2.UseVisualStyleBackColor = true;
+            this.Modulo2.Click += new System.EventHandler(this.Modulo2_Click);
             // 
             // Modulo3
             // 
