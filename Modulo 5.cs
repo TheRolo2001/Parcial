@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Parcial
 {
-    public partial class Modulo3 : Form
+    public partial class Modulo_5 : Form
     {
-        public Modulo3()
+        public Modulo_5()
         {
             InitializeComponent();
         }
-
-        private void btn_Click(object sender, EventArgs e)
-        {
-          
-            
-            }
     }
 }

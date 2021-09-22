@@ -36,6 +36,11 @@ namespace Parcial
                     txto.Text = num1 + "  ES MENOR QUE  " + num2;
 
                 }
+                else {
+                    if ((num1 == num2)) {
+                        txto.Text = num1+ " ES IGUAL QUE " + num2;
+                            }
+                }
 
             }
         }
