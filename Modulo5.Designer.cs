@@ -2,7 +2,7 @@
 namespace Parcial
 {
 <<<<<<< HEAD:Modulo5.Designer.cs
-    partial class Modulo5
+    partial class Modulo6
 =======
     partial class Modulo6
 >>>>>>> 3b12e60ff047beaae051e3630ff20b63a21b6d48:Modulo6.Designer.cs
