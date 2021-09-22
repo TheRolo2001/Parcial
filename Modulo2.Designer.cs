@@ -1,7 +1,7 @@
 ﻿
 namespace Parcial
 {
-    partial class Form2
+    partial class Modulo2
     {
         /// <summary>
         /// Required designer variable.
@@ -98,7 +98,7 @@ namespace Parcial
             this.Btn_Cerrar.UseVisualStyleBackColor = true;
             this.Btn_Cerrar.Click += new System.EventHandler(this.Btn_Cerrar_Click);
             // 
-            // Form2
+            // Modulo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,8 +110,8 @@ namespace Parcial
             this.Controls.Add(this.PDigito);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Modulo2";
+            this.Text = "Modulo2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
