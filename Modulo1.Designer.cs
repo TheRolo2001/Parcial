@@ -1,7 +1,7 @@
 ﻿
 namespace Parcial
 {
-    partial class Form3
+    partial class Modulo1
     {
         /// <summary>
         /// Required designer variable.

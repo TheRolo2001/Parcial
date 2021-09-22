@@ -25,7 +25,7 @@ namespace Parcial
 
         private void Modulo2_Click(object sender, EventArgs e)
         {
-            Form3 Formulario3 = new Form3();
+            Modulo1 Formulario3 = new Modulo1();
             Formulario3.Show();
         }
 
