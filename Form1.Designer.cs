@@ -78,6 +78,16 @@ namespace Parcial
             this.Modulo4.UseVisualStyleBackColor = true;
             this.Modulo4.Click += new System.EventHandler(this.Modulo4_Click);
             // 
+            // Modulo5
+            // 
+            this.Modulo5.Location = new System.Drawing.Point(98, 274);
+            this.Modulo5.Name = "Modulo5";
+            this.Modulo5.Size = new System.Drawing.Size(139, 22);
+            this.Modulo5.TabIndex = 4;
+            this.Modulo5.Text = "Modulo5";
+            this.Modulo5.UseVisualStyleBackColor = true;
+            this.Modulo5.Click += new System.EventHandler(this.Modulo5_Click);
+            // 
             // Modulo6
             // 
             this.Modulo6.Location = new System.Drawing.Point(98, 318);

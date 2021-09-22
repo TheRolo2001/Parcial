@@ -41,15 +41,14 @@ namespace Parcial
             Modulo.Show();
         }
 
-<<<<<<< HEAD
+        private void Modulo5_Click(object sender, EventArgs e)
+        {
+            Modulo5 Modulo = new Modulo5();
+            Modulo.Show();
+        }
         private void Modulo6_Click(object sender, EventArgs e)
         {
             Modulo6 Modulo = new Modulo6();
-=======
-        private void Modulo5_Click(object sender, EventArgs e)
-        {
-            Modulo_5 Modulo = new Modulo_5();
->>>>>>> 0d7185588a3206151b3d55e048795457b79c9e9f
             Modulo.Show();
         }
     }
