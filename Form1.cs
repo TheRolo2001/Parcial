@@ -16,5 +16,11 @@ namespace Parcial
         {
             InitializeComponent();
         }
+
+        private void Modulo1_Click(object sender, EventArgs e)
+        {
+            Form2 Formulario2 = new Form2();
+            Formulario2.Show();
+        }
     }
 }
