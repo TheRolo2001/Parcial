@@ -66,6 +66,7 @@ namespace Parcial
             this.Modulo3.TabIndex = 2;
             this.Modulo3.Text = "Modulo3";
             this.Modulo3.UseVisualStyleBackColor = true;
+            this.Modulo3.Click += new System.EventHandler(this.Modulo3_Click);
             // 
             // Modulo4
             // 
@@ -118,7 +119,7 @@ namespace Parcial
             this.Controls.Add(this.Modulo2);
             this.Controls.Add(this.Modulo1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Interfas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
