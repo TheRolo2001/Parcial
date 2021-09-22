@@ -19,8 +19,14 @@ namespace Parcial
 
         private void btn_Click(object sender, EventArgs e)
         {
-          
             
+
             }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
-}
+    }
+
