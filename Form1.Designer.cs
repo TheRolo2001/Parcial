@@ -33,9 +33,9 @@ namespace Parcial
             this.Modulo2 = new System.Windows.Forms.Button();
             this.Modulo3 = new System.Windows.Forms.Button();
             this.Modulo4 = new System.Windows.Forms.Button();
-            this.Modulo5 = new System.Windows.Forms.Button();
             this.Modulo6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Modulo5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Modulo1
@@ -78,15 +78,6 @@ namespace Parcial
             this.Modulo4.UseVisualStyleBackColor = true;
             this.Modulo4.Click += new System.EventHandler(this.Modulo4_Click);
             // 
-            // Modulo5
-            // 
-            this.Modulo5.Location = new System.Drawing.Point(98, 274);
-            this.Modulo5.Name = "Modulo5";
-            this.Modulo5.Size = new System.Drawing.Size(139, 22);
-            this.Modulo5.TabIndex = 4;
-            this.Modulo5.Text = "Modulo5";
-            this.Modulo5.UseVisualStyleBackColor = true;
-            // 
             // Modulo6
             // 
             this.Modulo6.Location = new System.Drawing.Point(98, 318);
@@ -107,14 +98,23 @@ namespace Parcial
             this.label1.TabIndex = 6;
             this.label1.Text = "MENU DE MODULOS ";
             // 
+            // Modulo5
+            // 
+            this.Modulo5.Location = new System.Drawing.Point(98, 272);
+            this.Modulo5.Name = "Modulo5";
+            this.Modulo5.Size = new System.Drawing.Size(139, 22);
+            this.Modulo5.TabIndex = 8;
+            this.Modulo5.Text = "Modulo5";
+            this.Modulo5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Modulo5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Modulo6);
-            this.Controls.Add(this.Modulo5);
             this.Controls.Add(this.Modulo4);
             this.Controls.Add(this.Modulo3);
             this.Controls.Add(this.Modulo2);
@@ -132,9 +132,9 @@ namespace Parcial
         private System.Windows.Forms.Button Modulo2;
         private System.Windows.Forms.Button Modulo3;
         private System.Windows.Forms.Button Modulo4;
-        private System.Windows.Forms.Button Modulo5;
         private System.Windows.Forms.Button Modulo6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Modulo5;
     }
 }
 
