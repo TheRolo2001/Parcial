@@ -23,6 +23,12 @@ namespace Parcial
             Formulario2.Show();
         }
 
+        private void Modulo2_Click(object sender, EventArgs e)
+        {
+            Form3 Formulario3 = new Form3();
+            Formulario3.Show();
+        }
+
         private void Modulo4_Click(object sender, EventArgs e)
         {
             Modulo4 Modulo = new Modulo4();
