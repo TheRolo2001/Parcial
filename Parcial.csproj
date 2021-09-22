@@ -64,11 +64,11 @@
     <Compile Include="Modulo4.Designer.cs">
       <DependentUpon>Modulo4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Modulo1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Modulo1.Designer.cs">
+      <DependentUpon>Modulo1.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulo6.cs">
       <SubType>Form</SubType>
@@ -87,8 +87,8 @@
     <EmbeddedResource Include="Modulo4.resx">
       <DependentUpon>Modulo4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo1.resx">
+      <DependentUpon>Modulo1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
