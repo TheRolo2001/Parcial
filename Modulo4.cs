@@ -33,5 +33,10 @@ namespace Parcial
             String Resul = String.Join(" ", Texto.Split(' ').Select(x => new String(x.Reverse().ToArray())));
             Resultado.Text = Resul;
         }
+
+        private void Frase_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

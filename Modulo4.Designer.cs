@@ -61,6 +61,7 @@ namespace Parcial
             this.Frase.Name = "Frase";
             this.Frase.Size = new System.Drawing.Size(93, 20);
             this.Frase.TabIndex = 2;
+            this.Frase.TextChanged += new System.EventHandler(this.Frase_TextChanged);
             // 
             // Btn_Inver
             // 
