@@ -82,7 +82,7 @@ namespace Parcial
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(364, 184);
+            this.label1.Location = new System.Drawing.Point(335, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(434, 49);
             this.label1.TabIndex = 6;
@@ -121,7 +121,7 @@ namespace Parcial
             this.Controls.Add(this.Modulo2);
             this.Controls.Add(this.Modulo1);
             this.Name = "Form1";
-            this.Text = "Interfas";
+            this.Text = "Interfaz";
             this.ResumeLayout(false);
             this.PerformLayout();
 
