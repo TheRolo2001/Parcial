@@ -40,9 +40,10 @@ namespace Parcial
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(339, 132);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(203, 52);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 23);
+            this.button1.Size = new System.Drawing.Size(143, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "¿Cual es el menor? ";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,7 +52,7 @@ namespace Parcial
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(306, 50);
+            this.label1.Location = new System.Drawing.Point(25, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 1;
@@ -60,7 +61,7 @@ namespace Parcial
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(306, 94);
+            this.label2.Location = new System.Drawing.Point(25, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 2;
@@ -68,29 +69,30 @@ namespace Parcial
             // 
             // n1
             // 
-            this.n1.Location = new System.Drawing.Point(400, 50);
+            this.n1.Location = new System.Drawing.Point(101, 28);
             this.n1.Name = "n1";
             this.n1.Size = new System.Drawing.Size(100, 20);
             this.n1.TabIndex = 3;
             // 
             // n2
             // 
-            this.n2.Location = new System.Drawing.Point(400, 91);
+            this.n2.Location = new System.Drawing.Point(101, 79);
             this.n2.Name = "n2";
             this.n2.Size = new System.Drawing.Size(100, 20);
             this.n2.TabIndex = 4;
             // 
             // txto
             // 
-            this.txto.Location = new System.Drawing.Point(237, 182);
+            this.txto.Location = new System.Drawing.Point(28, 121);
             this.txto.Name = "txto";
-            this.txto.Size = new System.Drawing.Size(318, 96);
+            this.txto.Size = new System.Drawing.Size(318, 46);
             this.txto.TabIndex = 5;
             this.txto.Text = "";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(354, 299);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(148, 173);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -102,7 +104,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(364, 209);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txto);
             this.Controls.Add(this.n2);

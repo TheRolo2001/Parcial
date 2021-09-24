@@ -37,7 +37,8 @@ namespace Parcial
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(303, 378);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(165, 296);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -47,7 +48,8 @@ namespace Parcial
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(303, 141);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(165, 93);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 10;
@@ -57,15 +59,15 @@ namespace Parcial
             // 
             // fra
             // 
-            this.fra.Location = new System.Drawing.Point(195, 28);
+            this.fra.Location = new System.Drawing.Point(50, 35);
             this.fra.Name = "fra";
-            this.fra.Size = new System.Drawing.Size(300, 96);
+            this.fra.Size = new System.Drawing.Size(300, 52);
             this.fra.TabIndex = 11;
             this.fra.Text = "";
             // 
             // res
             // 
-            this.res.Location = new System.Drawing.Point(182, 184);
+            this.res.Location = new System.Drawing.Point(34, 122);
             this.res.Name = "res";
             this.res.Size = new System.Drawing.Size(334, 168);
             this.res.TabIndex = 12;
@@ -75,7 +77,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(659, 521);
+            this.ClientSize = new System.Drawing.Size(405, 331);
             this.Controls.Add(this.res);
             this.Controls.Add(this.fra);
             this.Controls.Add(this.button2);

@@ -38,7 +38,8 @@ namespace Parcial
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.Location = new System.Drawing.Point(46, 161);
+            this.BtnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCerrar.Location = new System.Drawing.Point(66, 127);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(93, 23);
             this.BtnCerrar.TabIndex = 0;
@@ -49,7 +50,7 @@ namespace Parcial
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 20);
+            this.label1.Location = new System.Drawing.Point(63, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 1;
@@ -57,15 +58,16 @@ namespace Parcial
             // 
             // Frase
             // 
-            this.Frase.Location = new System.Drawing.Point(46, 46);
+            this.Frase.Location = new System.Drawing.Point(12, 46);
             this.Frase.Name = "Frase";
-            this.Frase.Size = new System.Drawing.Size(93, 20);
+            this.Frase.Size = new System.Drawing.Size(206, 20);
             this.Frase.TabIndex = 2;
             this.Frase.TextChanged += new System.EventHandler(this.Frase_TextChanged);
             // 
             // Btn_Inver
             // 
-            this.Btn_Inver.Location = new System.Drawing.Point(46, 82);
+            this.Btn_Inver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Inver.Location = new System.Drawing.Point(66, 72);
             this.Btn_Inver.Name = "Btn_Inver";
             this.Btn_Inver.Size = new System.Drawing.Size(93, 23);
             this.Btn_Inver.TabIndex = 3;
@@ -75,9 +77,9 @@ namespace Parcial
             // 
             // Resultado
             // 
-            this.Resultado.Location = new System.Drawing.Point(46, 123);
+            this.Resultado.Location = new System.Drawing.Point(12, 101);
             this.Resultado.Name = "Resultado";
-            this.Resultado.Size = new System.Drawing.Size(93, 20);
+            this.Resultado.Size = new System.Drawing.Size(206, 20);
             this.Resultado.TabIndex = 4;
             this.Resultado.TextChanged += new System.EventHandler(this.Resultado_TextChanged);
             // 
@@ -85,7 +87,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(181, 206);
+            this.ClientSize = new System.Drawing.Size(230, 166);
             this.Controls.Add(this.Resultado);
             this.Controls.Add(this.Btn_Inver);
             this.Controls.Add(this.Frase);

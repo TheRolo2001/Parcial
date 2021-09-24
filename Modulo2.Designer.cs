@@ -41,7 +41,7 @@ namespace Parcial
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(216, 87);
+            this.label1.Location = new System.Drawing.Point(25, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace Parcial
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(216, 134);
+            this.label2.Location = new System.Drawing.Point(25, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 1;
@@ -58,21 +58,21 @@ namespace Parcial
             // 
             // PDigito
             // 
-            this.PDigito.Location = new System.Drawing.Point(407, 80);
+            this.PDigito.Location = new System.Drawing.Point(115, 26);
             this.PDigito.Name = "PDigito";
             this.PDigito.Size = new System.Drawing.Size(100, 20);
             this.PDigito.TabIndex = 2;
             // 
             // SDigito
             // 
-            this.SDigito.Location = new System.Drawing.Point(407, 127);
+            this.SDigito.Location = new System.Drawing.Point(115, 77);
             this.SDigito.Name = "SDigito";
             this.SDigito.Size = new System.Drawing.Size(100, 20);
             this.SDigito.TabIndex = 3;
             // 
             // Resultado
             // 
-            this.Resultado.Location = new System.Drawing.Point(306, 217);
+            this.Resultado.Location = new System.Drawing.Point(55, 156);
             this.Resultado.Name = "Resultado";
             this.Resultado.Size = new System.Drawing.Size(123, 20);
             this.Resultado.TabIndex = 4;
@@ -80,9 +80,10 @@ namespace Parcial
             // 
             // CalculoA
             // 
-            this.CalculoA.Location = new System.Drawing.Point(330, 175);
+            this.CalculoA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculoA.Location = new System.Drawing.Point(55, 114);
             this.CalculoA.Name = "CalculoA";
-            this.CalculoA.Size = new System.Drawing.Size(75, 23);
+            this.CalculoA.Size = new System.Drawing.Size(123, 23);
             this.CalculoA.TabIndex = 6;
             this.CalculoA.Text = "CalcularArea:";
             this.CalculoA.UseVisualStyleBackColor = true;
@@ -90,7 +91,8 @@ namespace Parcial
             // 
             // Btn_Cerrar
             // 
-            this.Btn_Cerrar.Location = new System.Drawing.Point(330, 259);
+            this.Btn_Cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Cerrar.Location = new System.Drawing.Point(77, 194);
             this.Btn_Cerrar.Name = "Btn_Cerrar";
             this.Btn_Cerrar.Size = new System.Drawing.Size(75, 23);
             this.Btn_Cerrar.TabIndex = 7;
@@ -102,7 +104,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(236, 229);
             this.Controls.Add(this.Btn_Cerrar);
             this.Controls.Add(this.CalculoA);
             this.Controls.Add(this.Resultado);

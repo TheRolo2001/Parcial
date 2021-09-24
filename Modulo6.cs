@@ -95,7 +95,7 @@ namespace Parcial
                     Ganaste = false;
                 }
             }
-            if (Ganaste) { MessageBox.Show("Ganaste");
+            if (Ganaste) { MessageBox.Show("GANASTE");
                 Abecedario.Enabled = false;
             }
 
@@ -112,7 +112,7 @@ namespace Parcial
                         BtnL.Text = BtnL.Tag.ToString();
                         
                     }
-                    MessageBox.Show("PERDISTES VUELVE A INTENTARLO");
+                    MessageBox.Show("PERDISTE VUELVE A INTENTARLO");
                 } 
             }
         }

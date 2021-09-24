@@ -25,14 +25,14 @@ namespace Parcial
 
         private void CalculoA_Click(object sender, EventArgs e)
         {
-            int altura;
-            int bse;
-            int Result;
+            double altura;
+            double bse;
+            double Result;
 
-            altura = Convert.ToInt32(PDigito.Text);
-            bse = Convert.ToInt32(SDigito.Text);
+            altura = Convert.ToDouble(PDigito.Text);
+            bse = Convert.ToDouble(SDigito.Text);
 
-            Result = altura*bse/2;
+            Result = (altura*bse)/2;
             Resultado.Text=Result.ToString();
         }
 

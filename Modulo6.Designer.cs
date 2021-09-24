@@ -40,7 +40,8 @@ namespace Parcial
             // 
             // Cerrar
             // 
-            this.Cerrar.Location = new System.Drawing.Point(356, 415);
+            this.Cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cerrar.Location = new System.Drawing.Point(325, 415);
             this.Cerrar.Name = "Cerrar";
             this.Cerrar.Size = new System.Drawing.Size(75, 23);
             this.Cerrar.TabIndex = 0;
@@ -50,6 +51,7 @@ namespace Parcial
             // 
             // BtnIni
             // 
+            this.BtnIni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIni.Location = new System.Drawing.Point(12, 12);
             this.BtnIni.Name = "BtnIni";
             this.BtnIni.Size = new System.Drawing.Size(164, 23);
@@ -91,7 +93,7 @@ namespace Parcial
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(272, 18);
+            this.label2.Location = new System.Drawing.Point(271, 17);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 13);
             this.label2.TabIndex = 6;
@@ -101,7 +103,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(723, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Frase_In);

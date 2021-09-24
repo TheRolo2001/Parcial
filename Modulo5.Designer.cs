@@ -37,7 +37,8 @@ namespace Parcial
             // 
             // Cerrar
             // 
-            this.Cerrar.Location = new System.Drawing.Point(386, 349);
+            this.Cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cerrar.Location = new System.Drawing.Point(124, 186);
             this.Cerrar.Name = "Cerrar";
             this.Cerrar.Size = new System.Drawing.Size(75, 23);
             this.Cerrar.TabIndex = 0;
@@ -47,7 +48,7 @@ namespace Parcial
             // 
             // txto
             // 
-            this.txto.Location = new System.Drawing.Point(263, 46);
+            this.txto.Location = new System.Drawing.Point(12, 12);
             this.txto.Name = "txto";
             this.txto.Size = new System.Drawing.Size(301, 96);
             this.txto.TabIndex = 1;
@@ -55,17 +56,18 @@ namespace Parcial
             // 
             // txta
             // 
-            this.txta.Location = new System.Drawing.Point(263, 247);
+            this.txta.Location = new System.Drawing.Point(59, 154);
             this.txta.Name = "txta";
-            this.txta.Size = new System.Drawing.Size(301, 96);
+            this.txta.Size = new System.Drawing.Size(209, 26);
             this.txta.TabIndex = 2;
             this.txta.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(368, 184);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(92, 114);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 23);
+            this.button1.Size = new System.Drawing.Size(145, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "¿sera pangrama?";
             this.button1.UseVisualStyleBackColor = true;
@@ -75,7 +77,7 @@ namespace Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(325, 217);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txta);
             this.Controls.Add(this.txto);
